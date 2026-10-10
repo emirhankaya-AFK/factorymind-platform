@@ -1,9 +1,9 @@
 # FactoryMind (English)
 
+## Purpose
 FactoryMind is a production-style industrial AI operations platform that unifies computer-vision quality inspection, IoT telemetry, predictive maintenance and alert triage.
 
 ## Features
-
 - FastAPI backend with SQLAlchemy
 - React TypeScript Vite dashboard
 - Computer vision inspection with OpenCV
@@ -13,41 +13,104 @@ FactoryMind is a production-style industrial AI operations platform that unifies
 - Role/organization ready design
 - Comprehensive tests
 
-## Getting Started
+## Stack
+- Backend: FastAPI, SQLAlchemy
+- Frontend: React, TypeScript, Vite
+- Computer Vision: OpenCV
+- Telemetry: deterministic synthetic generator
+- API: REST, WebSocket
+- Deployment: Docker Compose, Kubernetes
+- Design: role/organization ready
 
-See [docker-compose.yml](docker-compose.yml) for local development.
-
+## Setup / Usage
+See `docker-compose.yml` for local development.
 ```bash
 make up
 ```
+
+## Testing
+Comprehensive tests are included.
+
+## Limitations
+No specific limitations are documented in the repository.
 
 ## License
-
 MIT
 
-# FactoryMind (Español)
+# FactoryMind (Türkçe)
 
-FactoryMind es una plataforma industrial de operaciones con IA de estilo production que unifica inspección de calidad por visión por computadora, telemetría IoT, mantenimiento predictivo y triaje de alertas.
+## Amaç
+FactoryMind, görüntü tabanlı kalite denetimi, IoT telemetrisi, prediktif bakım ve uyarı triajını birleştiren üretim stili endüstriyel AI işletme platformudur.
 
-## Características
+## Özellikler
+- FastAPI backend ile SQLAlchemy
+- React TypeScript Vite kontrol paneli
+- OpenCV ile görüntü tabanlı denetim
+- Deterministik sentetik telemetri üretici
+- REST API ve WebSocket uç noktaları
+- Docker Compose ve Kubernetes manifestleri
+- Rol/organizasyon hazır tasarımı
+- Kapsamlı testler
 
-- Backend FastAPI con SQLAlchemy
-- Panel de control React TypeScript Vite
-- Inspección por visión por computadora con OpenCV
-- Generador de telemetría sintética determinista
-- Endpoints de API REST y WebSocket
-- Manifiestos de Docker Compose y Kubernetes
-- Diseño listo para roles/organizaciones
-- Pruebas comprehensivas
+## Teknoloji Yığını
+- Backend: FastAPI, SQLAlchemy
+- Frontend: React, TypeScript, Vite
+- Görüntü İşleme: OpenCV
+- Telemetri: deterministik sentetik üretici
+- API: REST, WebSocket
+- Dağıtım: Docker Compose, Kubernetes
+- Tasarım: rol/organizasyon hazır
 
-## Primeros Pasos
-
-Consulte [docker-compose.yml](docker-compose.yml) para desarrollo local.
-
+## Kurulum / Kullanım
+Yerel geliştirme için `docker-compose.yml` dosyasına bakın.
 ```bash
 make up
 ```
 
-## Licencia
+## Test
+Kapsamlı testler depoda bulunur.
 
+## Sınırlamalar
+Depoda belirli bir sınırlama belgelenmemektedir.
+
+## Lisans
+MIT
+
+# FactoryMind (Deutsch)
+
+## Zweck
+FactoryMind ist eine produktionsähnliche industrielle KI-Operationsplattform, die computerbasierte Qualitätsprüfung, IoT-Telemetrie, vorausschauende Wartung und Alarm-Triage vereint.
+
+## Merkmale
+- FastAPI-Backend mit SQLAlchemy
+- React TypeScript Vite Dashboard
+- Computer-Vision-Prüfung mit OpenCV
+- Deterministischer synthetischer Telemetrie-Generator
+- REST-API und WebSocket-Endpunkte
+- Docker-Compose- und Kubernetes-Manifeste
+- Rollen-/Organisationsbereit Design
+- Umfassende Tests
+
+## Stack
+- Backend: FastAPI, SQLAlchemy
+- Frontend: React, TypeScript, Vite
+- Computer Vision: OpenCV
+- Telemetrie: deterministischer synthetischer Generator
+- API: REST, WebSocket
+- Bereitstellung: Docker Compose, Kubernetes
+- Design: rollen-/organisationsbereit
+
+## Einrichtung / Nutzung
+Siehe `docker-compose.yml` für lokale Entwicklung.
+```bash
+make up
+```
+
+## Tests
+Umfassende Tests sind enthalten.
+
+## Einschränkungen
+Im Repository sind keine spezifischen Einschränkungen dokumentiert.
+
+## Lizenz
 MIT
